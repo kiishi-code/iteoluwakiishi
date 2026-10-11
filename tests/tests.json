@@ -1,0 +1,31 @@
+[
+  {
+    "name": "Submit valid contact enquiry",
+    "viewport": "desktop",
+    "steps": [
+      "Open Contact",
+      "Enter valid details and a message of at least ten characters",
+      "Submit the form"
+    ],
+    "expected": "A success state appears when the configured backend accepts the submission."
+  },
+  {
+    "name": "Mobile layout and WhatsApp option",
+    "viewport": "mobile",
+    "steps": [
+      "Open portfolio on a narrow viewport",
+      "Navigate through sections",
+      "Use the floating WhatsApp option"
+    ],
+    "expected": "Content remains readable and WhatsApp remains accessible."
+  },
+  {
+    "name": "Theme preference",
+    "viewport": "desktop",
+    "steps": [
+      "Toggle the theme",
+      "Refresh the page"
+    ],
+    "expected": "The selected theme is retained in browser storage."
+  }
+]
